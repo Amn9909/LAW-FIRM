@@ -1,0 +1,10 @@
+/* styles.css (or your CSS file) */
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* Number of lines to display */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+  
